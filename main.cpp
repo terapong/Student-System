@@ -1,5 +1,6 @@
 #include <iostream>
+using namespace std;
 
 int main(int, char**){
-    std::cout << "Hello, from Student-System!\n";
+    cout << "Hello, from Student-System!\n";
 }

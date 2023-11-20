@@ -1,11 +1,13 @@
 #include <iostream>
+using namespace std;
+
 class Student {
     private:
         int id;
         string name;
         int age;
         string phoneNumber;
-        double jpa;
+        double gpa;
     public:
 
         // Setter
@@ -21,13 +23,25 @@ class Student {
         void setPhoneNumber(string phoneNumber) {
             this->phoneNumber = phoneNumber;
         }
-        void setJpa(double jpa) {
-            this->jpa = jpa;
+        void setGpa(double gpa) {
+            this->gpa = gpa;
         }
 
         // Getter
         int getId() {
             return id;
+        }
+        string getName() {
+            return name;
+        }
+        int getAge() {
+            return age;
+        }
+        string getPhoneNumber() {
+            return phoneNumber;
+        }
+        double getGpa() {
+            return gpa;
         }
 
 };
