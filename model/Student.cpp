@@ -7,6 +7,8 @@ class Student {
         string phoneNumber;
         double jpa;
     public:
+
+        // Setter
         void setId(int id) {
             this->id = id;
         }
@@ -21,6 +23,11 @@ class Student {
         }
         void setJpa(double jpa) {
             this->jpa = jpa;
+        }
+
+        // Getter
+        int getId() {
+            return id;
         }
 
 };
