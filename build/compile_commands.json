@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/toto/Student-System/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/Student-System.dir/main.cpp.o -c /home/toto/Student-System/main.cpp",
+  "file": "/home/toto/Student-System/main.cpp"
+}
+]
